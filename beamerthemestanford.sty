@@ -1,0 +1,30 @@
+% #########################################
+
+% This file provides an unofficial  beamer-theme
+% with Stanford University branding and colors
+
+% author: Lukasz Kidzinski
+% email: lukasz.kidzinski@stanford.edu
+% Stanford University
+% August 2016
+
+% #########################################
+
+\institute[Stanford]{
+\begin{columns}
+  \column[c]{5cm} \centering
+    \includegraphics[width=0.25\paperwidth]{SUSig_2color_Stree_Stacked_Left.eps}
+\end{columns}}
+\usetheme{CambridgeUS}
+\setbeamercolor{item projected}{bg=red}
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{navigation symbols}{}
+\setbeamercovered{transparent}
+\setbeamercolor{block title}{fg=red}
+\setbeamercolor{local structure}{fg=red}
+
+
+\addtobeamertemplate{frametitle}{}{%
+  \begin{textblock*}{100mm}(0.85\textwidth,-0.9cm)
+  \includegraphics[height=0.85cm]{SUSig_Stack.eps}  
+\end{textblock*}}
